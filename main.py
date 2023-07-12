@@ -1,5 +1,14 @@
-with open("README.md", "r")as file:
-    content = file.read()
-    words = content.split()
-    word_count = len(words)
-    print("Количество слов в файле:", word_count)
+from datetime import datetime
+year = datetime.today()
+now = datetime.now()
+
+timeNow = now.strftime("%H:%M:%S")
+print(timeNow)
+
+print(year)
+
+
+
+
+
+
